@@ -53,4 +53,4 @@ const TALENTS = {
   t042: { talent_id: "t042", name: "蔡雨萱", email: "cai.yuxuan@example.com", phone: "151****0042" },
 };
 
-module.exports = { TALENTS };
+export { TALENTS };

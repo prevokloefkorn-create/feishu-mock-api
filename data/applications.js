@@ -153,4 +153,4 @@ const APPLICATIONS = [
   { application_id: "app_089", job_id: "job_030", talent_id: "t041", stage: STAGES.INTERVIEW_1, stage_entered_at: daysAgo(6) },
 ];
 
-module.exports = { APPLICATIONS };
+export { APPLICATIONS };

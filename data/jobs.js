@@ -56,4 +56,4 @@ const JOBS = [
   { job_id: "job_030", job_name: "数据工程师", department: "数据部", job_status: 1 },
 ];
 
-module.exports = { JOBS };
+export { JOBS };
