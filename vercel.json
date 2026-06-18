@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/open-apis/auth/v3/tenant_access_token/internal",
+      "destination": "/api/open-apis/auth/v3/tenant_access_token/internal"
+    },
+    {
+      "source": "/open-apis/hire/v1/jobs",
+      "destination": "/api/open-apis/hire/v1/jobs"
+    },
+    {
+      "source": "/open-apis/hire/v1/applications",
+      "destination": "/api/open-apis/hire/v1/applications"
+    },
+    {
+      "source": "/open-apis/hire/v1/talents/:talent_id",
+      "destination": "/api/open-apis/hire/v1/talents/[talent_id]"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type,Authorization" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "feishu-mock-api",
+  "version": "1.0.0",
+  "description": "飞书招聘 API Mock 服务，用于工作流①调试",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
